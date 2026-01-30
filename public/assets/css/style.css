@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lugrasimo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url("https://use.typekit.net/lax8qsq.css");
 
 body {
     background: #155984;
@@ -34,15 +35,25 @@ main {
 }
 
 main div {
-    background: #c0e297;
+    background: #d3d6f5;
     padding: 20px;
     margin-bottom: 10px;
     text-align: center;
+    border-radius: 50px;
 }
-.bebas-neue-regular {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
+
+main div h1{
+    font-family: "green-fairy-dots-combo", sans-serif;
+    font-weight: 600;
     font-style: normal;
+    font-size: 40px;
+    color: rgb(133, 18, 68);
+}
+
+main div img{
+    height: 500px;
+    border-radius: 50px;
+    margin: 30px 0px;
 }
 
 footer {
