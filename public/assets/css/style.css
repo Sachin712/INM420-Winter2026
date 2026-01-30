@@ -55,6 +55,13 @@ footer {
 
 }
 
+.WingHeiChan{
+    color:#be512a;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #cde0b4;
+}
+
 @media (min-width: 650px) {
     main {
         display: flex;
