@@ -69,4 +69,10 @@ footer {
     main div {
         width: calc(33.3333% - 50px);
     }
+main h1{
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 32px;
+  letter-spacing: 0.08em;
+  color: #ff00dd;
+}
 }
