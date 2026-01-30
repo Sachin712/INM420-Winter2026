@@ -70,3 +70,14 @@ footer {
         width: calc(33.3333% - 50px);
     }
 }
+
+main h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    color: #e29578;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+    margin: 20px 0;
+}
