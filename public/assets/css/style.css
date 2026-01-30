@@ -39,6 +39,16 @@ main div {
     margin-bottom: 10px;
     text-align: center;
 }
+
+main h1 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #00b03b;
+    margin-bottom: 10px;
+}
+
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
