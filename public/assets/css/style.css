@@ -39,6 +39,13 @@ main div {
     margin-bottom: 10px;
     text-align: center;
 }
+
+.ShuoyanMA{
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+}
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
