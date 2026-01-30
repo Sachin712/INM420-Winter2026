@@ -39,6 +39,13 @@ main div {
     margin-bottom: 10px;
     text-align: center;
 }
+
+.daisy {
+    font-family: "Moo Lah Lah", sans-serif;
+    font-size: 30px;
+    color:#c6613c;
+}
+
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
