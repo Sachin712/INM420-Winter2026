@@ -30,6 +30,21 @@ header h1 {
   color: #7209B7;
 }
 
+.yuancheng-ma {
+  font-family: 'Great Vibes', cursive;
+  font-size: 52px;
+  color: #0D7377;
+  letter-spacing: 2px;
+}
+
+.yuancheng-ma-img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
 p {
     margin-bottom: 20px;
 }
