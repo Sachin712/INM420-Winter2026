@@ -146,4 +146,11 @@ main h1{
   letter-spacing: 0.08em;
   color: #ff00dd;
 }
+.syeda {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    color: #2015b8;
+    text-shadow: #121015;
+    text align: center;
+    text-animation: glow 1s ease-in-out infinite alternate;
 }
