@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lugrasimo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Jersey+10&display=swap');
 
 body {
@@ -119,6 +120,26 @@ footer {
     main div {
         width: calc(33.3333% - 50px);
     }
+
+    .waheed-name {
+        font-family: "Nabla", system-ui;
+        font-optical-sizing: auto;
+    }
+
+    .name-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .profile-img {
+        width: 24px;
+        height: 24px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+}
 main h1{
   font-family: "Playfair Display", Georgia, serif;
   font-size: 32px;
