@@ -46,6 +46,13 @@ main div {
     text-align: center;
 }
 
+.ShuoyanMA{
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+}
+
 .daisy {
     font-family: "Moo Lah Lah", sans-serif;
     font-size: 30px;
