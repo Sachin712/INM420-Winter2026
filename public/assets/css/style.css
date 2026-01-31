@@ -52,6 +52,8 @@ h2 {
     color: rgb(192, 111, 192);
     font-family: cursive;
     font-size: 80px;
+}
+
 .ShuoyanMA{
     font-family: "Rye", serif;
     font-weight: 400;
@@ -110,6 +112,12 @@ h2 {
     color: #7209B7;
 }
 
+#christine {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #2f6fe7;
+}
 
 
 footer {
@@ -156,10 +164,11 @@ footer {
     }
 
 }
+
 main h1{
   font-family: "Playfair Display", Georgia, serif;
   font-size: 32px;
   letter-spacing: 0.08em;
   color: #ff00dd;
 }
-}
+
