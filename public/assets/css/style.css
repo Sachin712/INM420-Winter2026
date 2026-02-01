@@ -70,3 +70,15 @@ footer {
         width: calc(33.3333% - 50px);
     }
 }
+
+h1{
+    font-family: 'Poppins';
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-top: 100px;
+};
