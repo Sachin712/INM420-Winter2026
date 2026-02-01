@@ -27,9 +27,9 @@ header h1 {
 }
 
 .hyelim {
-  font-family: 'Changa One', cursive;
-  font-size: 48px;
-  color: #7209B7;
+    font-family: 'Changa One', cursive;
+    font-size: 48px;
+    color: #7209B7;
 }
 
 p {
@@ -54,7 +54,7 @@ main div {
     font-size: 80px;
 }
 
-.ShuoyanMA{
+.ShuoyanMA {
     font-family: "Rye", serif;
     font-weight: 400;
     font-size: 30px;
@@ -64,7 +64,7 @@ main div {
 .daisy {
     font-family: "Moo Lah Lah", sans-serif;
     font-size: 30px;
-    color:#c6613c;
+    color: #c6613c;
 }
 
 .bebas-neue-regular {
@@ -76,7 +76,7 @@ main div {
 .renachen {
     font-family: 'Grand Hotel';
     font-size: 24px;
-    color:#0CABA8;
+    color: #0CABA8;
 }
 
 #wiljay {
@@ -87,10 +87,21 @@ main div {
 }
 
 @keyframes scan-wiljay {
-    0% {clip-path: polygon(0% 0%, 20% 0%, 20% 100%, 0% 100%);}
-    60% {clip-path: polygon(80% 0%, 100% 0%, 100% 100%, 80% 100%);}
-    80% {clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);}
-    100% {clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);}
+    0% {
+        clip-path: polygon(0% 0%, 20% 0%, 20% 100%, 0% 100%);
+    }
+
+    60% {
+        clip-path: polygon(80% 0%, 100% 0%, 100% 100%, 80% 100%);
+    }
+
+    80% {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    100% {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
 }
 
 .pitch {
@@ -99,11 +110,12 @@ main div {
     color: deeppink;
 }
 
-#serin{
+#serin {
     font-size: 45px;
     color: #0CABA8;
 }
-#ramisha{
+
+#ramisha {
     font-family: "Playwrite NZ Basic", cursive;
     font-weight: 400;
     font-size: 36px;
@@ -118,7 +130,7 @@ main div {
     color: #2f6fe7;
 }
 
-#hannah{
+#hannah {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 30px;
@@ -126,7 +138,7 @@ main div {
 }
 
 /* CSS SECTION FOR STEPHANIE CHAN */
-    /* Styling container divs */
+/* Styling container divs */
 .stephanie-animation {
     display: flex;
     width: 650px;
@@ -135,7 +147,7 @@ main div {
     border-radius: 24px;
     justify-content: center;
     border-top: 12px solid white;
-    
+
     top: 50%;
     left: 50%;
     transform: translate(-10%, -10%);
@@ -147,7 +159,7 @@ main div {
     flex: 1
 }
 
-    /* Create each ball */
+/* Create each ball */
 .ball {
     height: 20px;
     width: 20px;
@@ -163,7 +175,7 @@ main div {
     text-shadow: cyan 0px 0px 5px;
 }
 
-    /* Add pendulum rods*/
+/* Add pendulum rods*/
 .ball::before {
     content: '';
     width: 2px;
@@ -174,7 +186,7 @@ main div {
     position: absolute;
 }
 
-    /* Animate ball 1 swing */
+/* Animate ball 1 swing */
 .ball.first {
     animation: firstball 900ms alternate ease-in infinite;
 }
@@ -183,13 +195,14 @@ main div {
     0% {
         transform: rotate(15deg);
     }
+
     50% {
         transform: rotate(0deg);
     }
 }
 
-    /* Animate ball 9 swing */
-.ball.last { 
+/* Animate ball 9 swing */
+.ball.last {
     animation: lastball 900ms alternate ease-out infinite;
 }
 
@@ -197,12 +210,14 @@ main div {
     50% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(-15deg);
     }
 }
+
 /* END OF CSS SECTION FOR STEPHANIE CHAN */
-#chingwen{
+#chingwen {
     font-weight: 800;
     text-transform: uppercase;
     font-family: 'Georgia', serif;
@@ -210,7 +225,22 @@ main div {
     text-decoration: underline wavy #FF6B6B 3px;
 }
 
-#georget{
+#caiyu {
+    font-family: 'Playwrite NZ Basic', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #0a4d8c;
+    text-decoration: underline;
+    text-decoration-color: #f5c400;
+    text-decoration-thickness: 6px;
+    text-underline-offset: 10px;
+}
+
+#caiyu:hover {
+    color: #f5c400;
+}
+
+#georget {
     font-family: 'Poppins';
     font-size: 80px;
     text-align: center;
@@ -220,7 +250,9 @@ main div {
     background-clip: text;
     color: transparent;
     margin-top: 100px;
-};
+}
+
+;
 
 footer {
     font-weight: 600;
@@ -267,14 +299,9 @@ footer {
 
 }
 
-main h1{
-  font-family: "Playfair Display", Georgia, serif;
-  font-size: 32px;
-  letter-spacing: 0.08em;
-  color: #ff00dd;
+main h1 {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 32px;
+    letter-spacing: 0.08em;
+    color: #ff00dd;
 }
-
-
-
-
-
