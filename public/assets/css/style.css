@@ -125,6 +125,14 @@ h2 {
     color: #41e72f;
 }
 
+#chingwen{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Georgia', serif;
+    color: teal;
+    text-decoration: underline wavy #FF6B6B 3px;
+}
+
 footer {
     font-weight: 600;
     text-align: center;
