@@ -87,9 +87,14 @@ main div {
 }
 
 .hlyke {
-    color: #e63946;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(251, 114, 169);
     font-size: 32px;
     font-weight: bold;
+    padding: 10px;
+    border: 1px solid rgb(247, 207, 207);
+    border-radius: 20px;
+    background: white;
 
 }
 
