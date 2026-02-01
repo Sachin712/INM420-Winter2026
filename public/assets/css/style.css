@@ -74,8 +74,7 @@ main div {
 #wiljay {
     font-family: "Fredericka the Great", serif;
     font-size: 40px;
-    width: 110px;
-    height: 40px;
+    color: black;
     animation: scan-wiljay 2s ease-in infinite alternate-reverse;
 }
 
