@@ -133,6 +133,18 @@ h2 {
     text-decoration: underline wavy #FF6B6B 3px;
 }
 
+#georget{
+    font-family: 'Poppins';
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-top: 100px;
+};
+
 footer {
     font-weight: 600;
     text-align: center;
@@ -184,4 +196,8 @@ main h1{
   letter-spacing: 0.08em;
   color: #ff00dd;
 }
+
+
+
+
 
