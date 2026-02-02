@@ -450,3 +450,11 @@ main h1 {
     transform: scale(1.05);
     transition: 0.2s ease;
   }
+
+#erik {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 50px;
+    color: #2e2e60;
+}
