@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Jersey+10&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic+Guides&display=swap');
 
 
 body {
@@ -259,6 +260,13 @@ main div {
     font-weight: 400;
     font-style: 150px;
     color: #b12b66;
+}
+
+#adeline {
+  font-family: "Playwrite NZ Basic Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #ee7315;
 }
 
 
