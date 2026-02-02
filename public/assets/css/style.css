@@ -431,3 +431,11 @@ main h1 {
   100% { clip-path: inset(40% 0 0 0); }
 }
 /*end of juan animation*/
+
+#erik {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 50px;
+    color: #2e2e60;
+}
