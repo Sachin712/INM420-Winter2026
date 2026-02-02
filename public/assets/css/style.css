@@ -458,3 +458,10 @@ main h1 {
     font-size: 50px;
     color: #2e2e60;
 }
+
+#tiago {
+    font-family: "Rubik", sans-serif;
+    font-weight: 900;
+    color: #00332e;
+    text-shadow: 2px 3px 2px #80bd9c;
+}
