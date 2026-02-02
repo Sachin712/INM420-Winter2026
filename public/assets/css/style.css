@@ -270,14 +270,15 @@ main div {
 }
 
 .hlye-style {
-        font-family: 'Cinzel', serif;
-        font-size: 40px;
-        font-weight: 700;
-        color: #4b0082;             
-        text-align: center;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        margin: 30px 0;
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ff0b89;             
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 20px;
+        
 }
 
 
