@@ -10,5 +10,15 @@
   "devDependencies": {
     "lite-server": "^2.6.1"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sachin712/INM420-Winter2026.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sachin712/INM420-Winter2026/issues"
+  },
+  "homepage": "https://github.com/Sachin712/INM420-Winter2026#readme",
+  "type": "commonjs"
 }

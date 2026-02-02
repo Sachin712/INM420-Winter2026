@@ -6,6 +6,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lugrasimo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic+Guides&display=swap');
+
 
 body {
     background: #155984;
@@ -24,6 +29,12 @@ header h1 {
     font-size: 24px;
 }
 
+.hyelim {
+    font-family: 'Changa One', cursive;
+    font-size: 48px;
+    color: #7209B7;
+}
+
 p {
     margin-bottom: 20px;
 }
@@ -39,10 +50,258 @@ main div {
     margin-bottom: 10px;
     text-align: center;
 }
+
+#Aroosha {
+    color: rgb(192, 111, 192);
+    font-family: cursive;
+    font-size: 80px;
+}
+
+.ShuoyanMA {
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+}
+
+.daisy {
+    font-family: "Moo Lah Lah", sans-serif;
+    font-size: 30px;
+    color: #c6613c;
+}
+
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.renachen {
+    font-family: 'Grand Hotel';
+    font-size: 24px;
+    color: #0CABA8;
+}
+
+#wiljay {
+    font-family: "Fredericka the Great", serif;
+    font-size: 40px;
+    color: black;
+    animation: scan-wiljay 2s ease-in infinite alternate-reverse;
+}
+
+@keyframes scan-wiljay {
+    0% {
+        clip-path: polygon(0% 0%, 20% 0%, 20% 100%, 0% 100%);
+    }
+
+    60% {
+        clip-path: polygon(80% 0%, 100% 0%, 100% 100%, 80% 100%);
+    }
+
+    80% {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    100% {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+}
+
+.pitch {
+    font-family: "Audiowide", sans-serif;
+    font-size: 32px;
+    color: deeppink;
+}
+
+#serin {
+    font-size: 45px;
+    color: #0CABA8;
+}
+
+#ramisha {
+    font-family: "Playwrite NZ Basic", cursive;
+    font-weight: 400;
+    font-size: 36px;
+    font-style: normal;
+    color: #7209B7;
+}
+
+#christine {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #2f6fe7;
+}
+
+#hannah {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #41e72f;
+}
+
+/* CSS SECTION FOR STEPHANIE CHAN */
+/* Styling container divs */
+.stephanie-animation {
+    display: flex;
+    width: 650px;
+    height: 150px;
+    background-color: lightpink;
+    border-radius: 24px;
+    justify-content: center;
+    border-top: 12px solid white;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -10%);
+}
+
+.cradle-box {
+    display: flex;
+    padding: 75px 55px 0 55px;
+    flex: 1
+}
+
+/* Create each ball */
+.ball {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: lightskyblue;
+    position: relative;
+    transform-origin: 50% -300%;
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    text-shadow: cyan 0px 0px 5px;
+}
+
+/* Add pendulum rods*/
+.ball::before {
+    content: '';
+    width: 2px;
+    height: 75px;
+    background-color: #fffeff;
+    left: 30px;
+    top: -75px;
+    position: absolute;
+}
+
+/* Animate ball 1 swing */
+.ball.first {
+    animation: firstball 900ms alternate ease-in infinite;
+}
+
+@keyframes firstball {
+    0% {
+        transform: rotate(15deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+}
+
+/* Animate ball 9 swing */
+.ball.last {
+    animation: lastball 900ms alternate ease-out infinite;
+}
+
+@keyframes lastball {
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-15deg);
+    }
+}
+
+/* END OF CSS SECTION FOR STEPHANIE CHAN */
+#chingwen {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Georgia', serif;
+    color: teal;
+    text-decoration: underline wavy #FF6B6B 3px;
+}
+
+#caiyu {
+    font-family: 'Playwrite NZ Basic', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #0a4d8c;
+    text-decoration: underline;
+    text-decoration-color: #f5c400;
+    text-decoration-thickness: 6px;
+    text-underline-offset: 10px;
+}
+
+#caiyu:hover {
+    color: #f5c400;
+}
+
+#georget {
+    font-family: 'Poppins';
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-top: 100px;
+}
+
+#shanellecruz {
+    font-family: "Chelsea Market", system-ui;
+    font-weight: 400;
+    font-style: 150px;
+    color: #b12b66;
+}
+
+#adeline {
+  font-family: "Playwrite NZ Basic Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #ee7315;
+}
+
+#parneet {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: #8b00ff;
+}
+
+#cora-rainbow {
+    position: fixed;
+    top: 50%;                
+    left: 20px;               
+    z-index: 10000 !important;
+    
+
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+    font-weight: bold;
+    white-space: nowrap;
+
+   
+    background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.2));
+
+
+    animation: rainbow-flow 3s linear infinite, breathing 2s ease-in-out infinite;
+}
+
+@keyframes rainbow-flow {
+    0% { filter: hue-rotate(0deg); }
+    100% { filter: hue-rotate(360deg); }
 }
 
 footer {
@@ -69,4 +328,133 @@ footer {
     main div {
         width: calc(33.3333% - 50px);
     }
+
+    .waheed-name {
+        font-family: "Nabla", system-ui;
+        font-optical-sizing: auto;
+    }
+
+    .name-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .profile-img {
+        width: 24px;
+        height: 24px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+}
+
+main h1 {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 32px;
+    letter-spacing: 0.08em;
+    color: #ff00dd;
+}
+
+#c {
+    font-family: "Rubik Iso", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #0000ff;
+    font-size: 30px;
+    position: relative;
+    animation: cAnimation 2s infinite;
+}
+@keyframes cAnimation {
+  0%   {background-color:blue; left:0px; top:0px;}
+  50%  {background-color:yellow; left:200px; top:0px;}
+  100% {background-color:blue; left:0px; top:0px;}
+}
+.juan {
+  font-family: "Rubik Broken Fax", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color:#00FF41
+}
+/*juan animation*/
+.glitch {
+  position: relative;
+  font-size: 4rem;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  letter-spacing: 2px;
+  animation: glitch 2s infinite;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.glitch::before {
+  left: 2px;
+  text-shadow: -2px 0 red;
+  clip-path: inset(0 0 50% 0);
+  animation: glitch-top 1.5s infinite linear alternate-reverse;
+}
+
+.glitch::after {
+  left: -2px;
+  text-shadow: -2px 0 cyan;
+  clip-path: inset(50% 0 0 0);
+  animation: glitch-bottom 1.5s infinite linear alternate-reverse;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0); }
+}
+
+@keyframes glitch-top {
+  0% { clip-path: inset(0 0 80% 0); }
+  50% { clip-path: inset(0 0 20% 0); }
+  100% { clip-path: inset(0 0 60% 0); }
+}
+
+@keyframes glitch-bottom {
+  0% { clip-path: inset(80% 0 0 0); }
+  50% { clip-path: inset(20% 0 0 0); }
+  100% { clip-path: inset(40% 0 0 0); }
+}
+/*end of juan animation*/
+
+/* ===== JIN KIM ===== */
+#jin-kim{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 72px;
+    color: #ffffff;
+  
+    background: rgba(0,0,0,0.25);
+    border: 3px solid rgba(255,255,255,0.35);
+    border-radius: 18px;
+    padding: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  #jin-kim:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease;
+  }
+
+#erik {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 50px;
+    color: #2e2e60;
 }
