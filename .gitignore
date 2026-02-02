@@ -1,5 +1,5 @@
 # Added .DS_Store as it was causing merge conflicts with some mac users 
-.DS_Store
+**/.DS_Store
 
 # Logs
 logs
