@@ -355,3 +355,18 @@ main h1 {
     letter-spacing: 0.08em;
     color: #ff00dd;
 }
+
+#c {
+    font-family: "Rubik Iso", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #0000ff;
+    font-size: 30px;
+    position: relative;
+    animation: cAnimation 2s infinite;
+}
+@keyframes cAnimation {
+  0%   {background-color:blue; left:0px; top:0px;}
+  50%  {background-color:yellow; left:200px; top:0px;}
+  100% {background-color:blue; left:0px; top:0px;}
+}
