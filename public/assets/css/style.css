@@ -260,7 +260,12 @@ main div {
     font-style: 150px;
     color: #b12b66;
 }
-
+#erik {
+  font-family: "Playwrite IN Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
 
 ;
 
