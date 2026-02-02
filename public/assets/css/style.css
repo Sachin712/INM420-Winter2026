@@ -269,6 +269,14 @@ main div {
   color: #ee7315;
 }
 
+.hlye-style {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #00ff00;
+    text-align: center;
+}
+
 
 #cora-rainbow {
     position: fixed;
