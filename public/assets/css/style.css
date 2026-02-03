@@ -461,7 +461,30 @@ main h1 {
     transform: scale(1.05);
     transition: 0.2s ease;
   }
+.sidiv {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+  background-color: #edf6f9;
+}
+.sidGif{
+    width: 100px;
+    height: auto;
+}
+.tenor-gif-embed{
+  background-color: #edf6f9;
 
+}
+#sidGanti{
+    font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-size: 6rem;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
 #erik {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
