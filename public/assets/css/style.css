@@ -492,3 +492,44 @@ main h1 {
   }
 }
 /* ===== Luis Minjarez ===== */
+
+
+/* Verula Grana */
+#verula {
+    font-family: "Comforter Brush", cursive;
+    font-size: 4.5rem;
+    color:#fff2cc;
+    display: inline-block;
+    text-align: center;
+    border-radius: 1.5rem;
+
+    background: linear-gradient(
+        #0b0b37,
+        #351c75,
+        #3d85c6,
+        #9774ff,
+        #2fc7e8,
+        #ff82bf,
+        #6fa8dc
+    );
+    
+    animation: gradientMove 10s ease infinite;
+
+
+
+}
+
+/* Gradient animation */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Verula Grana */
