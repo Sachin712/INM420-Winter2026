@@ -140,6 +140,17 @@ main div {
     color: #41e72f;
 }
 
+#van-tran-img {
+  width: 200px;
+  height: auto;
+}
+
+#van-tran {
+    font-family: 'Shrikhand', cursive;
+    font-size: 160px;
+    color: #ff6f61;
+}
+
 /* CSS SECTION FOR STEPHANIE CHAN */
 /* Styling container divs */
 .stephanie-animation {
