@@ -11,6 +11,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic+Guides&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&family=Caveat:wght@400..700&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
 body {
     background: #155984;
@@ -863,3 +865,41 @@ main h1 {
   paint-order: stroke fill;
 }
 /* END of Mune's css */
+
+
+/* Steven 🙀🙀🙈🙉 */
+#steven {
+  position: fixed;
+  left: 250px;
+  top: 50px;
+  z-index: 3333;
+}
+
+#steven h1 {
+  font-family: "Indie Flower", cursive;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 100px;
+
+  color:aquamarine;
+  filter: drop-shadow(-40px 40px 3px fuchsia);
+}
+
+#steven img {
+  width: 250px;
+}
+
+#fazbear {
+  margin: 80px 0px 0px 700px;
+  transition: opacity 4s, scale 4s;
+}
+
+#fazbear:hover {
+  opacity: 25%;
+  scale: 300%;
+}
+
+#fazbear img{
+  width: 250px;
+}
+/* la fin 🤠 */
