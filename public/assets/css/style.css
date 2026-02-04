@@ -797,3 +797,31 @@ main h1 {
 }
 
 /* DANIELLE SISICAN (end) */
+
+/* yuching kao */
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #4A00E0;
+    display: block;
+    margin: 20px auto;
+}
+
+.yuchingkao-name {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4A00E0;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.yuchingkao-container {
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+}
+/* yuching kao (end) */
