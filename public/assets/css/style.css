@@ -833,3 +833,33 @@ main h1 {
   color: #7676a0;
   padding: 10px;
 }
+
+
+/* Mune Arimado */
+.mune-wrapper {
+  display: grid !important;
+  place-items: center !important;
+  width: 180px;
+  background: transparent !important;
+  margin: 0 auto;
+}
+.mune-moon {
+  grid-area: 1 / 1;
+  width: 180px;
+  height: auto;
+  display: block;
+}
+.mune-name {
+  grid-area: 1 / 1;
+  font-family: 'Cherry Bomb One';
+  font-size: 2rem;
+  color: #b98cff;
+  text-align: center;
+  z-index: 10;
+  pointer-events: none;
+  background: transparent !important;
+  transform: translateX(-50px);
+  -webkit-text-stroke: 8px white;
+  paint-order: stroke fill;
+}
+/* END of Mune's css */
