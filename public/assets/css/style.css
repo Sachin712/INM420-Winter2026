@@ -918,3 +918,55 @@ main h1 {
   border-radius: 16px;
   object-fit: cover;
 }
+
+/* Johara */
+
+.johara-wrapper {
+  display: grid !important;
+  place-items: center !important;
+  width: 180px;
+  background: transparent !important;
+  margin: 0 auto;
+}
+
+.johara-moon {
+  grid-area: 1 / 1;
+  width: 180px;
+  height: auto;
+  display: block;
+}
+
+/* Johara */
+
+.johara-wrapper {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  place-items: center;
+  width: 260px;
+  background: transparent !important;
+  pointer-events: none;
+}
+
+.johara-name {
+  position: absolute;
+  bottom: -10px;
+  font-family: 'Pacifico', cursive;
+  font-size: 3.5rem;
+  color: #f58cff;
+  text-align: center;
+  z-index: 10;
+  -webkit-text-stroke: 6px white;
+  paint-order: stroke fill;
+}
+.johara-hamster {
+  width: 100px;     
+  height: auto;
+  grid-area: 1 / 1;  
+  z-index: 5;      
+  margin-bottom: 10px; 
+  border-radius: 10px;
+}
+/* END of Johara */

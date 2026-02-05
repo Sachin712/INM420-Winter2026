@@ -27,3 +27,28 @@ body {
     right: 20px;
     z-index: 10;
 }
+
+
+  
+  .johara-name {
+    position: absolute;
+    bottom: -10px;
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 3.5rem;
+    color: #b98cff;
+    text-align: center;
+    z-index: 10;
+    -webkit-text-stroke: 6px white;
+    paint-order: stroke fill;
+  }
+  .johara-hamster {
+    width: 100px;     
+    height: auto;
+    grid-area: 1 / 1;  
+    z-index: 5;      
+    margin-bottom: 10px; 
+  }
+  
+  
+  /* END of Johara */
+  
