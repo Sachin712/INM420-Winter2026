@@ -903,3 +903,18 @@ main h1 {
   width: 250px;
 }
 /* la fin 🤠 */
+
+/* ===== WENYI QI ===== */
+.wenyiqi-name{
+  font-family: "Montserrat", sans-serif;
+  font-size: 56px;
+  font-weight: 900;
+  color: hotpink;
+}
+
+.wenyiqi-photo{
+  width: 120px;
+  height: 120px;
+  border-radius: 16px;
+  object-fit: cover;
+}
