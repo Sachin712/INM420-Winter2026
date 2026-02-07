@@ -155,6 +155,6 @@ main h1{
     font-size: 36px;
     color: #2015b8;
     text-shadow: #121015;
-    text align: center;
-    text-animation: glow 1s ease-in-out infinite alternate;
+    text-align: center;
+    text-decoration: underline;
 }
